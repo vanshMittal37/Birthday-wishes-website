@@ -7,7 +7,7 @@
 for (let i = 0; i < 10; i++) {
   const b = document.createElement("img");
   b.className = "landing-balloon";
-  b.src = "balloon.png"; // <-- save balloon PNG in same folder
+  b.src = "/public/balloon.png"; // <-- save balloon PNG in same folder
   b.style.left = Math.random() * 100 + "vw";
   b.style.animationDuration = 6 + Math.random() * 6 + "s";
   b.style.animationDelay = Math.random() * 5 + "s";
